@@ -99,3 +99,71 @@ p {
   box-shadow: var(--box-shadow);
   color: white;
 }
+
+@media (min-width: 992px) {
+  .navbar-expand-lg {
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+  }
+}
+
+@media (min-width: 1400px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    max-width: 1320px;
+  }
+}
+
+@media (max-width: 920px) {
+  h1 {
+    font-size: 48px;
+  }
+  h2 {
+    font-size: 24px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 576px) {
+  .col-md-6 {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+}
+
+@media (max-width: 576px) {
+  p {
+    text-align: center;
+  }
+  .project-link {
+    display: block;
+    text-align: center;
+    margin: 0 20px;
+  }
+  #yoga-img,
+  #weather-img,
+  #yogurt-img {
+    display: none;
+  }
+  .container {
+    margin-bottom: 40px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 1200px) {
+  p {
+    text-align: center;
+  }
+}
