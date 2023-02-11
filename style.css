@@ -151,15 +151,6 @@ p {
   #yogurt-img {
     display: none;
   }
-  .container {
-    margin-bottom: 40px;
-  }
-}
-
-@media (min-width: 768px) {
-  .container {
-    margin-bottom: 40px;
-  }
 }
 
 @media (max-width: 1200px) {
